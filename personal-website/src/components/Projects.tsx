@@ -1,7 +1,5 @@
-import React from 'react'
 import ProjectItem from './ProjectItem'
 import reboundImg from '../assets/Student Card.jpeg'; // Example image imports
-import websiteImg from '../assets/Student Card.jpeg';
 import guessImg from '../assets/Student Card.jpeg';
 import pawLogImg from '../assets/Student Card.jpeg';
 import jsLearningKitImg from '../assets/Student Card.jpeg';

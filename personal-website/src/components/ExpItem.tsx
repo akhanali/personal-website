@@ -1,4 +1,3 @@
-import React from 'react'
 
 const ExpItem = ({year, position, duration, details}) => {
   return (
