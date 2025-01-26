@@ -13,7 +13,7 @@ const Home = () => {
               sequence={[
                 // Same substring at the start will only be typed out once, initially
                 'Student',
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                1000, // wait 1s 
                 'Developer',
                 2000,
                 'Coder',
