@@ -1,5 +1,5 @@
 
-const ProjectItem = ({img, title, src ="#"}:any) => {
+const ProjectItem = ({img, title, src ="#", info}:any) => {
   console.log(src);
   return (
     <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group transition-all duration-300 ease-in-out">
@@ -14,7 +14,7 @@ const ProjectItem = ({img, title, src ="#"}:any) => {
         <h3 className="font-bold text-2xl text-white tracking-wider text-center">
           {title}
         </h3>
-        <p className="pb-4 pt-2 text-white text-center">React TS</p>
+        <p className="pb-4 pt-2 text-white text-center text-nowrap">{info}</p>
 
         <a href={src} target="_blank">
           <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg hover:bg-gray-300 transition-colors duration-300 ease-in-out">
