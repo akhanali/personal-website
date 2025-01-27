@@ -49,7 +49,7 @@ const AboutMe = () => {
         return (
           <div>
             <h2 className="text-2xl font-bold p-4">Interests</h2>
-            <p>
+            <p className='text-lg'>
               I am passionate about software development, competitive programming, and leveraging
               technology to solve real-world problems. Additionally, I enjoy exploring new programming frameworks,
               contributing to open-source projects, and mentoring peers in technical concepts.
@@ -60,8 +60,22 @@ const AboutMe = () => {
         return (
           <div>
             <h2 className="text-2xl font-bold p-4">Education</h2>
-            <p>Bachelor of Computer Science (In Progress) - York University, Toronto, ON</p>
-            <p>Relevant Courses: Data Structures, Algorithms, Software Engineering, Machine Learning</p>
+
+            <div className="space-y-1 w-full">
+              <div className='flex w-fit px-1.5 py-0.5 bg-[#001b5e] rounded-md items-center justify-center mx-auto'>
+                <h3 className="md:text-lg text-white"> York University, Lassonde School of Engineering</h3>
+              </div>
+              <div className="flex justify-between">
+                <h4 className="font-semibold md:text-lg">Honours Bachelor Of Science in Computer Science</h4>
+                <p className="font-semibold md:text-lg text-nowrap">Expected 2028</p>
+              </div>
+              <div>
+                <p className="max-md:text-sm font-normal md:text-lg">
+                  <span className="font-bold">Relevant Courses:</span> React, OOP, Discrete Math, ML, Data Structures, Algorithms
+                </p>
+                <p> <span className="font-bold">GPA:</span> 3.8</p>
+              </div>
+            </div>
           </div>
         );
       case 'Experience':
@@ -85,16 +99,15 @@ const AboutMe = () => {
   };
 
   return (
-    <div className="max-w-[1040px] m-auto p-4 py-16">
+    <div className="max-w-[1040px] m-auto p-10 py-16">
       <h1 className="text-4xl font-bold text-center text-[#001B5E]">About Me</h1>
       <div className="flex justify-center space-x-4 my-8">
         {['Technical Skills', 'Interests', 'Education', 'Experience'].map((tab) => (
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
-            className={`px-4 py-2 rounded-lg ${
-              activeTab === tab ? 'bg-[#001B5E] text-white' : 'bg-gray-200'
-            }`}
+            className={`px-4 py-2 rounded-lg ${activeTab === tab ? 'bg-[#001B5E] text-white' : 'bg-gray-200'
+              }`}
           >
             {tab}
           </button>

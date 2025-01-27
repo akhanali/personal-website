@@ -1,8 +1,8 @@
 import ProjectItem from './ProjectItem'
-import reboundImg from '../assets/Student Card.jpeg'; // Example image imports
-import guessImg from '../assets/Student Card.jpeg';
-import pawLogImg from '../assets/Student Card.jpeg';
-import jsLearningKitImg from '../assets/Student Card.jpeg';
+import reboundImg from '../assets/rebound.png'; // Example image imports
+import guessImg from '../assets/guessTheNumber.png';
+import pawLogImg from '../assets/pawLog.png';
+import jsLearningKitImg from '../assets/jsLearningKit.jpg';
 
 
 const Projects = () => {
@@ -15,10 +15,10 @@ const Projects = () => {
         Deserunt, veritatis amet.
       </p>
       <div className='grid sm:grid-cols-2 gap-12'>
-        <ProjectItem img={guessImg} title='Guess The Number'/>
-        <ProjectItem img={pawLogImg} title='Paw Log'/>
+        <ProjectItem img={guessImg} title='Guess The Number' src='https://akhanali.github.io/GuessTheNumber/' />
+        <ProjectItem img={pawLogImg} title='Paw Log' src='https://github.com/Rongbin99/PawLog.git'/>
         <ProjectItem img={reboundImg} title='Rebound'/>
-        <ProjectItem img={jsLearningKitImg} title='JS Learning Kit'/>
+        <ProjectItem img={jsLearningKitImg} title='JS Learning Kit' src='https://akhanali.github.io/LearningKit/'/>
       </div>
     </div>
   )
