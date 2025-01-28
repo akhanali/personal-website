@@ -1,6 +1,6 @@
 
 const ProjectItem = ({img, title, src ="#", info}:any) => {
-  console.log(src);
+  //console.log(src);
   return (
     <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group transition-all duration-300 ease-in-out">
       <div className="absolute inset-0 bg-gradient-to-t from-gray-200 to-[#001b5e] opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out rounded-xl pointer-events-none"></div>
