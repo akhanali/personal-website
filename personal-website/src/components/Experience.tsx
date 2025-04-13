@@ -3,6 +3,12 @@ import ExpItem from './ExpItem';
 
 const data = [
   {
+    year: 2025,
+    position: "STEM Fellowship Research Assistant",
+    duration: "4 months",
+    details: "Conducted research on the Grassmannian Bruhat order and associated monoids, exploring their combinatorial and algebraic structures. Utilized Python and SageMath for pattern analysis and data processing, providing insights for research projects. Developing a program to simulate and visualize the reduced sequences of permutations under the Grassmannian Bruhat order."
+  },
+  {
     year: 2024,
     position: "Intern @ Kwaaka",
     duration: "3 months",
