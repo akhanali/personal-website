@@ -10,12 +10,6 @@ const data = [
   },
   {
     year: 2024,
-    position: "Intern @ Kwaaka",
-    duration: "3 months",
-    details: "Successfully resolved over 30 critical bugs in the Go programming language, significantly enhancing the stability and reliability of integration software. Actively participated in 20+ collaborative code review sessions with senior developers, leveraging their expertise to optimize performance and improve system robustness. Consistently recognized for a proactive and solution-oriented mindset, fostering a collaborative team environment and contributing to the delivery of high-quality, reliable software solutions."
-  },
-  {
-    year: 2023,
     position: "Pick and Pack Associate @ Gentell",
     duration: "3 months",
     details: "Efficiently processed daily product orders, picking and packing an average of 300+ wound care and skincare items per shift. Assembled and prepared over 150 boxes daily with 99% accuracy, ensuring timely shipments. Utilized specialized software to generate and attach shipping labels for all orders while maintaining a clean, organized workspace aligned with GMP and safety standards. Contributed to inventory management and stock replenishment, reducing discrepancies by 10% and streamlining operational efficiency."
