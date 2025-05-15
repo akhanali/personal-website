@@ -3,7 +3,7 @@ import reboundImg from '../assets/rebound.png'; // Example image imports
 import guessImg from '../assets/guessTheNumber.png';
 import pawLogImg from '../assets/pawLog.png';
 import jsLearningKitImg from '../assets/jsLearningKit.jpg';
-import playPodImg from '../assets/playPodImg.jpg';
+import playPodImg from '../assets/playPodImg.png';
 
 
 const Projects = () => {
