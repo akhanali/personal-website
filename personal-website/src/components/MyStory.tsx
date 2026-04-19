@@ -1,4 +1,4 @@
-const Interests = ({img, title}:any) => 
+const Interests = ({img, title}:any) => {
   return (
     <div>
       <h2 className="text-2xl font-bold p-4">My Story</h2>

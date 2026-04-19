@@ -5,7 +5,7 @@ import Education from './Education';
 import Experience from './Experience';
 import LeadershipActivities from './LeadershipActivities';
 import MyStory from './MyStory';
-import artifactImg from '../assets/artifact.JPG';
+import artifactImg from '../assets/artifact.jpg';
 import MyVision from './MyVision';
 
 const AboutMe = () => {

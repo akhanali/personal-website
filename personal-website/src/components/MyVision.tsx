@@ -1,4 +1,4 @@
-const Interests = () => 
+const Interests = () => {
   return (
     <div>
       <h2 className="text-2xl font-bold p-4">My Vision as an Engineer</h2>
