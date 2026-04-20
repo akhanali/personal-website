@@ -2,6 +2,12 @@ import ExpItem from './ExpItem';
 
 const data = [
   {
+    year: 2026,
+    position: "Student Web Software Engineer",
+    duration: "Jan 2026 - Aug 2026",
+    details: "Implement scoped improvements and bug fixes in a production web application, working through a Jira/Scrum workflow. Investigate UI and logic defects (e.g., incorrect rendering, missing information, inconsistent states), trace root causes, and ship verified fixes. Work within team standards: PR reviews, iterative feedback, and incremental delivery.",
+  },
+  {
     year: 2025,
     position: "Full-stack Developer @ nFactorial Incubator",
     duration: "Jun 2025 - Aug 2025",

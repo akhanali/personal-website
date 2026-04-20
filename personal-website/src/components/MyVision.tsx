@@ -1,4 +1,4 @@
-const Interests = () => {
+const MyVision = () => {
   return (
     <div>
       <h2 className="text-2xl font-bold p-4">My Vision as an Engineer</h2>
@@ -19,4 +19,4 @@ const Interests = () => {
   );
 };
 
-export default Interests;
+export default MyVision;

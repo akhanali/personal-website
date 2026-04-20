@@ -7,9 +7,10 @@ import LeadershipActivities from './LeadershipActivities';
 import MyStory from './MyStory';
 import artifactImg from '../assets/artifact.jpg';
 import MyVision from './MyVision';
+import WhyMeVideo from './WhyMeVideo';
 
 const AboutMe = () => {
-  const [activeTab, setActiveTab] = useState('Education');
+  const [activeTab, setActiveTab] = useState('My Story');
 
   const renderTabContent = () => {
     switch (activeTab) {
@@ -17,6 +18,8 @@ const AboutMe = () => {
         return <MyStory img={artifactImg} title='My Artifact'/>
       case 'My Vision':
         return <MyVision />
+      case 'Why Me Video':
+        return <WhyMeVideo />
       case 'Education':
         return <Education />;
       case 'Experience':
@@ -36,7 +39,7 @@ const AboutMe = () => {
     <div id="about" className="max-w-[1040px] m-auto p-10 py-16">
       <h1 className="text-4xl font-bold text-center text-[#001B5E]">About Me</h1>
       <div className="flex justify-center space-x-4 my-8">
-        {['My Story', 'My Vision', 'Education', 'Experience', 'Leadership & Activities', 'Technical Skills', 'Interests'].map((tab) => (
+        {['My Story', 'My Vision', 'Why Me Video', 'Education', 'Experience', 'Leadership & Activities', 'Technical Skills', 'Interests'].map((tab) => (
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
