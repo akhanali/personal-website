@@ -18,7 +18,7 @@ const AboutMe = () => {
         return <MyStory img={artifactImg} title='My Artifact'/>
       case 'My Vision':
         return <MyVision />
-      case 'Why Me Video':
+      case 'Why Me?':
         return <WhyMeVideo />
       case 'Education':
         return <Education />;
@@ -39,7 +39,7 @@ const AboutMe = () => {
     <div id="about" className="max-w-[1040px] m-auto p-10 py-16">
       <h1 className="text-4xl font-bold text-center text-[#001B5E]">About Me</h1>
       <div className="flex justify-center space-x-4 my-8">
-        {['My Story', 'My Vision', 'Why Me Video', 'Education', 'Experience', 'Leadership & Activities', 'Technical Skills', 'Interests'].map((tab) => (
+        {['My Story', 'My Vision', 'Why Me?', 'Education', 'Experience', 'Leadership & Activities', 'Technical Skills', 'Interests'].map((tab) => (
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
